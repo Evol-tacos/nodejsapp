@@ -1,4 +1,4 @@
-job('Aplicacion Node.js Docker DSL') {
+job('materia aprobada claro que si') {
     description('Aplicación Node JS Docker DSL para el curso de Jenkins')
     scm {
         git('https://github.com/Evol-tacos/nodejsapp.git', 'master') { node ->
