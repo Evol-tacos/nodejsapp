@@ -8,7 +8,7 @@ pipeline {
     stages { 
         stage('Cloning our Git') { 
             steps { 
-                git 'https://github.com/Evol-tacos/nodejsapp.git' 
+                git ('https://github.com/Evol-tacos/nodejsapp.git', 'master') 
             }
         } 
         stage('Building our image') { 
